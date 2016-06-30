@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<file_list>
+	<project_name>E:\PRJ_LAB_AUTO_MAX4_V2200.pro</project_name>
+	<project_directories>
+		<compiledir>.\Compile\</compiledir>
+		<visudir>.\Visu\</visudir>
+		<libdir>.\Library\</libdir>
+		<configdir>.\PLCConf\</configdir>
+		<specificdir>.\UserData</specificdir>
+	</project_directories>
+	<file>
+		<ntfs_name>__file__.xml</ntfs_name>
+	</file>
+</file_list>
