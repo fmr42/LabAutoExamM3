@@ -1,327 +1,327 @@
 ram0:\epas4.mel MEL 00 00000000 Logging                               
 No;Timestamp;Type;Object;Instance;Code;Message1;Message2
-1;18:12.846;0x1000;LZS;LZS;8057;;Online-Change
-2;18:15.050;0x1000;LZS;LZS;8010;\temp.prg;write file
-3;18:37.371;0x1000;LZS;LZS;8010;\source.pak;write file
-4;18:55.465;0x0001;LZS;LZS;8009;;IEC program reset
-5;19:00.209;0x0001;LZS;LZS;8004;;IEC program started
-6;19:42.270;0x0001;LZS;LZS;8008;EPAS-4;logout
-7;19:42.282;0x1000;LZS;LZS;8014;c0a86567;disconnect from TCP/IP server
-8;21:29.376;0x1000;LZS;LZS;8013;c0a86567;connect to TCP/IP server
-9;21:29.397;0x0001;LZS;LZS;8007;EPAS-4;login
-10;21:44.891;0x0001;LZS;LZS;8009;;IEC program reset
-11;21:47.524;0x0001;LZS;LZS;8004;;IEC program started
-12;22:28.683;0x0001;LZS;LZS;8008;EPAS-4;logout
-13;22:28.689;0x1000;LZS;LZS;8014;c0a86567;disconnect from TCP/IP server
-14;25:14.049;0x1000;LZS;LZS;8013;c0a86567;connect to TCP/IP server
-15;25:14.067;0x0001;LZS;LZS;8007;EPAS-4;login
-16;25:43.815;0x0002;IECPRG;Main;6317;1/1;cycle time overrun
-17;25:43.828;0x1000;LZS;LZS;8057;;Online-Change
-18;25:45.862;0x1000;LZS;LZS;8010;\temp.prg;write file
-19;26:05.917;0x1000;LZS;LZS;8010;\source.pak;write file
-20;26:23.830;0x0001;LZS;LZS;8009;;IEC program reset
-21;26:26.938;0x0001;LZS;LZS;8004;;IEC program started
-22;29:00.032;0x0001;LZS;LZS;8008;EPAS-4;logout
-23;29:00.036;0x1000;LZS;LZS;8014;c0a86567;disconnect from TCP/IP server
-24;30:41.889;0x1000;LZS;LZS;8013;c0a86567;connect to TCP/IP server
-25;30:41.906;0x0001;LZS;LZS;8007;EPAS-4;login
-26;31:10.920;0x0002;IECPRG;Main;6317;1/1;cycle time overrun
-27;31:10.962;0x1000;LZS;LZS;8057;;Online-Change
-28;31:13.135;0x1000;LZS;LZS;8010;\temp.prg;write file
-29;31:32.741;0x1000;LZS;LZS;8010;\source.pak;write file
-30;31:56.231;0x0001;LZS;LZS;8009;;IEC program reset
-31;31:58.749;0x0001;LZS;LZS;8004;;IEC program started
-32;32:55.198;0x0001;LZS;LZS;8008;EPAS-4;logout
-33;32:55.211;0x1000;LZS;LZS;8014;c0a86567;disconnect from TCP/IP server
-34;35:31.109;0x0002;MC_4;ax2;7134;;external 24V power supply too low
-35;35:31.113;0x0002;MC_4;ax1;7134;;external 24V power supply too low
-36;35:31.141;0x0002;SERC;RTB;1506;Rr;Fatal SERCOS error (MASTER)
-37;0;0x0001;MAX4;PacDriveM;8002;FW V00.22.03;PacController boot started
-38;246;0x0001;MAX4;PacDriveM;8051;;Max4/AX=8/RAM=32/NRAM=32/DiskS=16
-39;598;0x1000;SERC;RTB;8042;Phase=1;SERCOS phase changed
-40; 2.238;0x1000;SERC;RTB;8042;Phase=2/L=22%;SERCOS phase changed
-41; 2.246;0x0001;MAX4;PacDriveM;8003;V00.05.00 MAx4;PacController boot finished
-42; 3.758;0x1000;SERC;RTB;8042;Phase=3;SERCOS phase changed
-43; 3.917;0x1000;SERC;RTB;8042;Phase=4;SERCOS phase changed
-44; 4:33.453;0x1000;LZS;LZS;8013;c0a86565;connect to TCP/IP server
-45; 4:33.466;0x0001;LZS;LZS;8007;EPAS-4;login
-46; 4:50.972;0x1000;LZS;LZS;8010;\temp.prg;write file
-47; 4:51.825;0x1000;LZS;LZS;8010;\testres.par;write file
-48; 4:55.668;0x1000;LZS;LZS;8010;\source.pak;write file
-49; 5:06.109;0x1000;LZS;LZS;8010;\canma.con;write file
-50; 5:06.232;0x1000;LZS;LZS;8010;\cansl.con;write file
-51; 5:06.351;0x1000;LZS;LZS;8010;\profima.con;write file
-52; 5:06.434;0x1000;LZS;LZS;8010;\profisl.con;write file
-53; 5:06.632;0x1000;LZS;LZS;8010;\test.scf;write file
-54; 5:10.622;0x0001;LZS;LZS;8006;;IEC program stopped
-55; 5:10.672;0x1000;SERC;RTB;8042;Phase=0;SERCOS phase changed
-56; 5:10.673;0x1000;MAX4;PacDriveM;8016;;system reset
-57;0;0x0001;MAX4;PacDriveM;8002;FW V00.22.03;PacController boot started
-58;476;0x0001;MAX4;PacDriveM;8051;;Max4/AX=8/RAM=32/NRAM=32/DiskS=16
-59;556;0x1000;SERC;RTB;8042;Phase=1;SERCOS phase changed
-60; 2.196;0x1000;SERC;RTB;8042;Phase=2/L=6%;SERCOS phase changed
-61; 2.472;0x0001;MAX4;PacDriveM;8003;V00.05.00 MAx4;PacController boot finished
-62; 5.804;0x1000;SERC;RTB;8042;Phase=3;SERCOS phase changed
-63; 6.024;0x1000;SERC;RTB;8042;Phase=4;SERCOS phase changed
-64;20.196;0x1000;LZS;LZS;8013;c0a86565;connect to TCP/IP server
-65;20.224;0x0001;LZS;LZS;8007;EPAS-4;login
-66;25.432;0x0001;LZS;LZS;8004;;IEC program started
-67; 1:50.540;0x0001;LZS;LZS;8008;EPAS-4;logout
-68; 1:50.552;0x1000;LZS;LZS;8014;c0a86565;disconnect from TCP/IP server
-69; 2:48.276;0x1000;LZS;LZS;8013;c0a86565;connect to TCP/IP server
-70; 2:48.292;0x0001;LZS;LZS;8007;EPAS-4;login
-71; 2:57.636;0x0001;LZS;LZS;8009;;IEC program reset
-72; 3:04.172;0x0001;LZS;LZS;8004;;IEC program started
-73;15:40.680;0x0001;LZS;LZS;8009;;IEC program reset
-74;15:44.136;0x0001;LZS;LZS;8004;;IEC program started
-75;15:52.196;0x1000;LZS;LZS;8013;c0a86567;connect to TCP/IP server
-76;15:52.224;0x1000;LZS;LZS;8014;c0a86567;disconnect from TCP/IP server
-77;21:33.492;0x0001;LZS;LZS;8009;;IEC program reset
-78;22:23.220;0x0001;LZS;LZS;8004;;IEC program started
-79;23:28.944;0x0001;LZS;LZS;8008;EPAS-4;logout
-80;23:28.948;0x1000;LZS;LZS;8014;c0a86565;disconnect from TCP/IP server
-81;23:36.908;0x1000;LZS;LZS;8013;c0a86567;connect to TCP/IP server
-82;23:36.928;0x0001;LZS;LZS;8007;EPAS-4;login
-83;24:32.612;0x0002;IECPRG;SymVisrtualAct;6317;1/1;cycle time overrun
-84;24:32.612;0x1000;LZS;LZS;8010;\temp.prg;write file
-85;24:33.608;0x1000;LZS;LZS;8010;\testres.par;write file
-86;24:55.084;0x1000;LZS;LZS;8010;\source.pak;write file
-87;25:05.520;0x1000;LZS;LZS;8010;\canma.con;write file
-88;25:05.656;0x1000;LZS;LZS;8010;\cansl.con;write file
-89;25:05.788;0x1000;LZS;LZS;8010;\profima.con;write file
-90;25:05.892;0x1000;LZS;LZS;8010;\profisl.con;write file
-91;25:05.992;0x1000;LZS;LZS;8010;\test.scf;write file
-92;25:07.240;0x0001;LZS;LZS;8006;;IEC program stopped
-93;25:07.296;0x1000;SERC;RTB;8042;Phase=0;SERCOS phase changed
-94;25:07.296;0x1000;MAX4;PacDriveM;8016;;system reset
-95;0;0x0001;MAX4;PacDriveM;8002;FW V00.22.03;PacController boot started
-96;246;0x0001;MAX4;PacDriveM;8051;;Max4/AX=8/RAM=32/NRAM=32/DiskS=16
-97;578;0x1000;SERC;RTB;8042;Phase=1;SERCOS phase changed
-98; 2.218;0x1000;SERC;RTB;8042;Phase=2/L=22%;SERCOS phase changed
-99; 2.246;0x0001;MAX4;PacDriveM;8003;V00.05.00 MAx4;PacController boot finished
-100; 3.733;0x1000;SERC;RTB;8042;Phase=3;SERCOS phase changed
-101; 3.890;0x1000;SERC;RTB;8042;Phase=4;SERCOS phase changed
-102;49.539;0x1000;LZS;LZS;8013;c0a86567;connect to TCP/IP server
-103;49.560;0x0001;LZS;LZS;8007;EPAS-4;login
-104;54.182;0x0001;LZS;LZS;8004;;IEC program started
-105; 2:20.325;0x0001;LZS;LZS;8008;EPAS-4;logout
-106; 2:20.333;0x1000;LZS;LZS;8014;c0a86567;disconnect from TCP/IP server
-107; 2:54.827;0x1000;LZS;LZS;8013;c0a86567;connect to TCP/IP server
-108; 2:54.842;0x0001;LZS;LZS;8007;EPAS-4;login
-109; 3:49.085;0x0002;IECPRG;Main;6317;1/1;cycle time overrun
-110; 3:49.106;0x1000;LZS;LZS;8057;;Online-Change
-111; 3:49.733;0x1000;LZS;LZS;8010;\temp.prg;write file
-112; 4:09.687;0x1000;LZS;LZS;8010;\source.pak;write file
-113; 9:21.404;0x0001;LZS;LZS;8008;EPAS-4;logout
-114; 9:21.415;0x1000;LZS;LZS;8014;c0a86567;disconnect from TCP/IP server
-115;15:37.919;0x1000;LZS;LZS;8013;c0a86567;connect to TCP/IP server
-116;15:37.938;0x0001;LZS;LZS;8007;EPAS-4;login
-117;16:09.069;0x1000;LZS;LZS;8057;;Online-Change
-118;16:11.086;0x1000;LZS;LZS;8010;\temp.prg;write file
-119;16:31.412;0x1000;LZS;LZS;8010;\source.pak;write file
-120;16:56.737;0x0001;LZS;LZS;8009;;IEC program reset
-121;17:00.778;0x0001;LZS;LZS;8004;;IEC program started
-122;18:35.048;0x0001;LZS;LZS;8008;EPAS-4;logout
-123;18:35.052;0x1000;LZS;LZS;8014;c0a86567;disconnect from TCP/IP server
-124;21:15.132;0x1000;LZS;LZS;8013;c0a86567;connect to TCP/IP server
-125;21:15.149;0x0001;LZS;LZS;8007;EPAS-4;login
-126;21:46.604;0x0002;IECPRG;Main;6317;1/1;cycle time overrun
-127;21:46.633;0x1000;LZS;LZS;8057;;Online-Change
-128;21:48.763;0x1000;LZS;LZS;8010;\temp.prg;write file
-129;22:09.064;0x1000;LZS;LZS;8010;\source.pak;write file
-130;22:29.478;0x0002;SERC;RTB;4507;W:-96 P4;write cycle overflow
-131;22:29.478;0x0001;LZS;LZS;8009;;IEC program reset
-132;22:34.188;0x0001;LZS;LZS;8004;;IEC program started
-133;22:49.133;0x0001;LZS;LZS;8006;;IEC program stopped
-134;22:49.224;0x1000;SERC;RTB;8042;Phase=0;SERCOS phase changed
-135;22:49.225;0x1000;MAX4;PacDriveM;8016;;system reset
-136;0;0x0001;MAX4;PacDriveM;8002;FW V00.22.03;PacController boot started
-137;385;0x0001;MAX4;PacDriveM;8051;;Max4/AX=8/RAM=32/NRAM=32/DiskS=16
-138;578;0x1000;SERC;RTB;8042;Phase=1;SERCOS phase changed
-139; 2.218;0x1000;SERC;RTB;8042;Phase=2/L=22%;SERCOS phase changed
-140; 2.386;0x0001;MAX4;PacDriveM;8003;V00.05.00 MAx4;PacController boot finished
-141; 2.434;0x1000;LZS;LZS;8013;c0a86567;connect to TCP/IP server
-142; 2.454;0x0001;LZS;LZS;8007;EPAS-4;login
-143; 3.735;0x1000;SERC;RTB;8042;Phase=3;SERCOS phase changed
-144; 3.892;0x1000;SERC;RTB;8042;Phase=4;SERCOS phase changed
-145; 6.501;0x0001;LZS;LZS;8004;;IEC program started
-146; 2:08.312;0x0001;LZS;LZS;8008;EPAS-4;logout
-147; 2:08.316;0x1000;LZS;LZS;8014;c0a86567;disconnect from TCP/IP server
-148; 9:38.562;0x1000;LZS;LZS;8013;c0a86567;connect to TCP/IP server
-149; 9:38.581;0x0001;LZS;LZS;8007;EPAS-4;login
-150;10:10.518;0x0002;IECPRG;Main;6317;1/1;cycle time overrun
-151;10:10.555;0x1000;LZS;LZS;8057;;Online-Change
-152;10:11.271;0x1000;LZS;LZS;8010;\temp.prg;write file
-153;10:31.517;0x1000;LZS;LZS;8010;\source.pak;write file
-154;10:50.821;0x0001;LZS;LZS;8009;;IEC program reset
-155;10:56.050;0x0001;LZS;LZS;8004;;IEC program started
-156;11:54.141;0x0001;LZS;LZS;8009;;IEC program reset
-157;11:59.389;0x0001;LZS;LZS;8008;EPAS-4;logout
-158;11:59.428;0x1000;LZS;LZS;8014;c0a86567;disconnect from TCP/IP server
-159;12:38.929;0x1000;LZS;LZS;8013;c0a86565;connect to TCP/IP server
-160;12:38.938;0x0001;LZS;LZS;8007;EPAS-4;login
-161;12:53.802;0x1000;LZS;LZS;8010;\temp.prg;write file
-162;12:54.634;0x1000;LZS;LZS;8010;\testres.par;write file
-163;12:58.214;0x1000;LZS;LZS;8010;\source.pak;write file
-164;13:08.918;0x1000;LZS;LZS;8010;\canma.con;write file
-165;13:09.107;0x1000;LZS;LZS;8010;\cansl.con;write file
-166;13:09.682;0x1000;LZS;LZS;8010;\profima.con;write file
-167;13:10.028;0x1000;LZS;LZS;8010;\profisl.con;write file
-168;13:10.624;0x1000;LZS;LZS;8010;\test.scf;write file
-169;13:15.061;0x0001;LZS;LZS;8006;;IEC program stopped
-170;13:15.151;0x1000;SERC;RTB;8042;Phase=0;SERCOS phase changed
-171;13:15.152;0x1000;MAX4;PacDriveM;8016;;system reset
+1;22:09.064;0x1000;LZS;LZS;8010;\source.pak;write file
+2;22:29.478;0x0002;SERC;RTB;4507;W:-96 P4;write cycle overflow
+3;22:29.478;0x0001;LZS;LZS;8009;;IEC program reset
+4;22:34.188;0x0001;LZS;LZS;8004;;IEC program started
+5;22:49.133;0x0001;LZS;LZS;8006;;IEC program stopped
+6;22:49.224;0x1000;SERC;RTB;8042;Phase=0;SERCOS phase changed
+7;22:49.225;0x1000;MAX4;PacDriveM;8016;;system reset
+8;0;0x0001;MAX4;PacDriveM;8002;FW V00.22.03;PacController boot started
+9;385;0x0001;MAX4;PacDriveM;8051;;Max4/AX=8/RAM=32/NRAM=32/DiskS=16
+10;578;0x1000;SERC;RTB;8042;Phase=1;SERCOS phase changed
+11; 2.218;0x1000;SERC;RTB;8042;Phase=2/L=22%;SERCOS phase changed
+12; 2.386;0x0001;MAX4;PacDriveM;8003;V00.05.00 MAx4;PacController boot finished
+13; 2.434;0x1000;LZS;LZS;8013;c0a86567;connect to TCP/IP server
+14; 2.454;0x0001;LZS;LZS;8007;EPAS-4;login
+15; 3.735;0x1000;SERC;RTB;8042;Phase=3;SERCOS phase changed
+16; 3.892;0x1000;SERC;RTB;8042;Phase=4;SERCOS phase changed
+17; 6.501;0x0001;LZS;LZS;8004;;IEC program started
+18; 2:08.312;0x0001;LZS;LZS;8008;EPAS-4;logout
+19; 2:08.316;0x1000;LZS;LZS;8014;c0a86567;disconnect from TCP/IP server
+20; 9:38.562;0x1000;LZS;LZS;8013;c0a86567;connect to TCP/IP server
+21; 9:38.581;0x0001;LZS;LZS;8007;EPAS-4;login
+22;10:10.518;0x0002;IECPRG;Main;6317;1/1;cycle time overrun
+23;10:10.555;0x1000;LZS;LZS;8057;;Online-Change
+24;10:11.271;0x1000;LZS;LZS;8010;\temp.prg;write file
+25;10:31.517;0x1000;LZS;LZS;8010;\source.pak;write file
+26;10:50.821;0x0001;LZS;LZS;8009;;IEC program reset
+27;10:56.050;0x0001;LZS;LZS;8004;;IEC program started
+28;11:54.141;0x0001;LZS;LZS;8009;;IEC program reset
+29;11:59.389;0x0001;LZS;LZS;8008;EPAS-4;logout
+30;11:59.428;0x1000;LZS;LZS;8014;c0a86567;disconnect from TCP/IP server
+31;12:38.929;0x1000;LZS;LZS;8013;c0a86565;connect to TCP/IP server
+32;12:38.938;0x0001;LZS;LZS;8007;EPAS-4;login
+33;12:53.802;0x1000;LZS;LZS;8010;\temp.prg;write file
+34;12:54.634;0x1000;LZS;LZS;8010;\testres.par;write file
+35;12:58.214;0x1000;LZS;LZS;8010;\source.pak;write file
+36;13:08.918;0x1000;LZS;LZS;8010;\canma.con;write file
+37;13:09.107;0x1000;LZS;LZS;8010;\cansl.con;write file
+38;13:09.682;0x1000;LZS;LZS;8010;\profima.con;write file
+39;13:10.028;0x1000;LZS;LZS;8010;\profisl.con;write file
+40;13:10.624;0x1000;LZS;LZS;8010;\test.scf;write file
+41;13:15.061;0x0001;LZS;LZS;8006;;IEC program stopped
+42;13:15.151;0x1000;SERC;RTB;8042;Phase=0;SERCOS phase changed
+43;13:15.152;0x1000;MAX4;PacDriveM;8016;;system reset
+44;0;0x0001;MAX4;PacDriveM;8002;FW V00.22.03;PacController boot started
+45;244;0x0001;MAX4;PacDriveM;8051;;Max4/AX=8/RAM=32/NRAM=32/DiskS=16
+46;560;0x1000;SERC;RTB;8042;Phase=1;SERCOS phase changed
+47; 2.200;0x1000;SERC;RTB;8042;Phase=2/L=6%;SERCOS phase changed
+48; 2.248;0x0001;MAX4;PacDriveM;8003;V00.05.00 MAx4;PacController boot finished
+49; 5.808;0x1000;SERC;RTB;8042;Phase=3;SERCOS phase changed
+50; 6.028;0x1000;SERC;RTB;8042;Phase=4;SERCOS phase changed
+51;36.392;0x1000;LZS;LZS;8013;c0a86565;connect to TCP/IP server
+52;36.404;0x0001;LZS;LZS;8007;EPAS-4;login
+53;50.832;0x0001;LZS;LZS;8004;;IEC program started
+54; 4:30.852;0x0001;LZS;LZS;8009;;IEC program reset
+55; 5:30.376;0x0001;LZS;LZS;8004;;IEC program started
+56; 8:06.936;0x0001;LZS;LZS;8008;EPAS-4;logout
+57; 8:06.952;0x1000;LZS;LZS;8014;c0a86565;disconnect from TCP/IP server
+58;12:54.264;0x1000;LZS;LZS;8013;c0a86565;connect to TCP/IP server
+59;12:54.276;0x0001;LZS;LZS;8007;EPAS-4;login
+60;13:09.072;0x0002;IECPRG;SymVisrtualAct;6317;1/1;cycle time overrun
+61;13:09.096;0x1000;LZS;LZS;8057;;Online-Change
+62;13:09.540;0x1000;LZS;LZS;8010;\temp.prg;write file
+63;13:13.824;0x1000;LZS;LZS;8010;\source.pak;write file
+64;13:32.696;0x0001;LZS;LZS;8009;;IEC program reset
+65;13:42.356;0x0001;LZS;LZS;8004;;IEC program started
+66;15:36.832;0x0001;LZS;LZS;8008;EPAS-4;logout
+67;15:36.836;0x1000;LZS;LZS;8014;c0a86565;disconnect from TCP/IP server
+68;17:23.568;0x1000;LZS;LZS;8013;c0a86565;connect to TCP/IP server
+69;17:23.588;0x0001;LZS;LZS;8007;EPAS-4;login
+70;17:56.924;0x0001;LZS;LZS;8009;;IEC program reset
+71;17:59.556;0x0001;LZS;LZS;8004;;IEC program started
+72;22:14.632;0x0001;LZS;LZS;8008;EPAS-4;logout
+73;22:14.636;0x1000;LZS;LZS;8014;c0a86565;disconnect from TCP/IP server
+74;22:33.216;0x1000;LZS;LZS;8013;c0a86565;connect to TCP/IP server
+75;22:33.240;0x0001;LZS;LZS;8007;EPAS-4;login
+76;23:18.788;0x0001;LZS;LZS;8009;;IEC program reset
+77;23:27.520;0x0001;LZS;LZS;8004;;IEC program started
+78;24:51.468;0x0001;LZS;LZS;8008;EPAS-4;logout
+79;24:51.484;0x1000;LZS;LZS;8014;c0a86565;disconnect from TCP/IP server
+80;25:47.476;0x1000;LZS;LZS;8013;c0a86565;connect to TCP/IP server
+81;25:47.484;0x0001;LZS;LZS;8007;EPAS-4;login
+82;25:55.376;0x1000;LZS;LZS;8057;;Online-Change
+83;25:55.376;0x0002;IECPRG;SymVisrtualAct;6317;1/1;cycle time overrun
+84;25:56.748;0x1000;LZS;LZS;8010;\temp.prg;write file
+85;26:01.012;0x1000;LZS;LZS;8010;\source.pak;write file
+86;26:21.388;0x0001;LZS;LZS;8009;;IEC program reset
+87;26:26.680;0x0001;LZS;LZS;8004;;IEC program started
+88;29:58.564;0x0001;LZS;LZS;8008;EPAS-4;logout
+89;29:58.572;0x1000;LZS;LZS;8014;c0a86565;disconnect from TCP/IP server
+90;30:19.580;0x1000;LZS;LZS;8013;c0a86567;connect to TCP/IP server
+91;30:19.600;0x0001;LZS;LZS;8007;EPAS-4;login
+92;31:14.204;0x0002;IECPRG;SymVisrtualAct;6317;1/1;cycle time overrun
+93;31:14.204;0x1000;LZS;LZS;8010;\temp.prg;write file
+94;31:14.876;0x1000;LZS;LZS;8010;\testres.par;write file
+95;31:34.868;0x1000;LZS;LZS;8010;\source.pak;write file
+96;31:45.368;0x1000;LZS;LZS;8010;\canma.con;write file
+97;31:45.496;0x1000;LZS;LZS;8010;\cansl.con;write file
+98;31:45.628;0x1000;LZS;LZS;8010;\profima.con;write file
+99;31:45.728;0x1000;LZS;LZS;8010;\profisl.con;write file
+100;31:45.828;0x1000;LZS;LZS;8010;\test.scf;write file
+101;31:50.040;0x0001;LZS;LZS;8006;;IEC program stopped
+102;31:50.124;0x1000;SERC;RTB;8042;Phase=0;SERCOS phase changed
+103;31:50.124;0x1000;MAX4;PacDriveM;8016;;system reset
+104;0;0x0001;MAX4;PacDriveM;8002;FW V00.22.03;PacController boot started
+105;246;0x0001;MAX4;PacDriveM;8051;;Max4/AX=8/RAM=32/NRAM=32/DiskS=16
+106;666;0x1000;SERC;RTB;8042;Phase=1;SERCOS phase changed
+107; 2.246;0x0001;MAX4;PacDriveM;8003;V00.05.00 MAx4;PacController boot finished
+108; 2.306;0x1000;SERC;RTB;8042;Phase=2/L=22%;SERCOS phase changed
+109; 3.822;0x1000;SERC;RTB;8042;Phase=3;SERCOS phase changed
+110; 3.979;0x1000;SERC;RTB;8042;Phase=4;SERCOS phase changed
+111;32.092;0x1000;LZS;LZS;8013;c0a86567;connect to TCP/IP server
+112;32.112;0x0001;LZS;LZS;8007;EPAS-4;login
+113;52.219;0x0001;LZS;LZS;8004;;IEC program started
+114; 3:22.339;0x0001;LZS;LZS;8008;EPAS-4;logout
+115; 3:22.348;0x1000;LZS;LZS;8014;c0a86567;disconnect from TCP/IP server
+116; 4:18.588;0x1000;LZS;LZS;8013;c0a86567;connect to TCP/IP server
+117; 4:18.606;0x0001;LZS;LZS;8007;EPAS-4;login
+118; 4:53.396;0x0001;LZS;LZS;8008;EPAS-4;logout
+119; 4:53.400;0x1000;LZS;LZS;8014;c0a86567;disconnect from TCP/IP server
+120; 5:21.383;0x1000;LZS;LZS;8013;c0a86565;connect to TCP/IP server
+121; 5:21.410;0x0001;LZS;LZS;8007;EPAS-4;login
+122; 5:35.539;0x1000;LZS;LZS;8010;\temp.prg;write file
+123; 5:35.625;0x0002;IECPRG;Main;6317;2/1;cycle time overrun
+124; 5:36.400;0x1000;LZS;LZS;8010;\testres.par;write file
+125; 5:40.006;0x1000;LZS;LZS;8010;\source.pak;write file
+126; 5:50.677;0x1000;LZS;LZS;8010;\canma.con;write file
+127; 5:50.810;0x1000;LZS;LZS;8010;\cansl.con;write file
+128; 5:50.925;0x1000;LZS;LZS;8010;\profima.con;write file
+129; 5:51.013;0x1000;LZS;LZS;8010;\profisl.con;write file
+130; 5:51.192;0x1000;LZS;LZS;8010;\test.scf;write file
+131; 5:53.799;0x0001;LZS;LZS;8006;;IEC program stopped
+132; 5:53.840;0x1000;SERC;RTB;8042;Phase=0;SERCOS phase changed
+133; 5:53.840;0x1000;MAX4;PacDriveM;8016;;system reset
+134;0;0x0001;MAX4;PacDriveM;8002;FW V00.22.03;PacController boot started
+135;472;0x0001;MAX4;PacDriveM;8051;;Max4/AX=8/RAM=32/NRAM=32/DiskS=16
+136;568;0x1000;SERC;RTB;8042;Phase=1;SERCOS phase changed
+137; 2.208;0x1000;SERC;RTB;8042;Phase=2/L=6%;SERCOS phase changed
+138; 2.472;0x0001;MAX4;PacDriveM;8003;V00.05.00 MAx4;PacController boot finished
+139; 5.812;0x1000;SERC;RTB;8042;Phase=3;SERCOS phase changed
+140; 6.032;0x1000;SERC;RTB;8042;Phase=4;SERCOS phase changed
+141;10.668;0x1000;LZS;LZS;8013;c0a86565;connect to TCP/IP server
+142;10.680;0x0001;LZS;LZS;8007;EPAS-4;login
+143;19.708;0x0001;LZS;LZS;8004;;IEC program started
+144; 3:22.788;0x0001;LZS;LZS;8008;EPAS-4;logout
+145; 3:22.792;0x1000;LZS;LZS;8014;c0a86565;disconnect from TCP/IP server
+146; 4:23.768;0x1000;LZS;LZS;8013;c0a86565;connect to TCP/IP server
+147; 4:23.776;0x0001;LZS;LZS;8007;EPAS-4;login
+148; 4:31.040;0x0001;LZS;LZS;8009;;IEC program reset
+149; 4:38.596;0x0001;LZS;LZS;8004;;IEC program started
+150; 5:46.072;0x0001;LZS;LZS;8008;EPAS-4;logout
+151; 5:46.080;0x1000;LZS;LZS;8014;c0a86565;disconnect from TCP/IP server
+152; 6:06.408;0x1000;LZS;LZS;8013;c0a86565;connect to TCP/IP server
+153; 6:06.420;0x0001;LZS;LZS;8007;EPAS-4;login
+154; 6:12.260;0x0001;LZS;LZS;8009;;IEC program reset
+155; 6:18.108;0x0001;LZS;LZS;8004;;IEC program started
+156; 7:45.996;0x0001;LZS;LZS;8008;EPAS-4;logout
+157; 7:46.004;0x1000;LZS;LZS;8014;c0a86565;disconnect from TCP/IP server
+158;14:16.932;0x1000;LZS;LZS;8013;c0a86567;connect to TCP/IP server
+159;14:16.952;0x0001;LZS;LZS;8007;EPAS-4;login
+160;15:14.868;0x1000;LZS;LZS;8010;\temp.prg;write file
+161;15:14.912;0x0002;IECPRG;SymVisrtualAct;6317;1/1;cycle time overrun
+162;15:15.532;0x1000;LZS;LZS;8010;\testres.par;write file
+163;15:35.212;0x1000;LZS;LZS;8010;\source.pak;write file
+164;15:46.272;0x1000;LZS;LZS;8010;\canma.con;write file
+165;15:46.404;0x1000;LZS;LZS;8010;\cansl.con;write file
+166;15:46.528;0x1000;LZS;LZS;8010;\profima.con;write file
+167;15:46.628;0x1000;LZS;LZS;8010;\profisl.con;write file
+168;15:46.752;0x1000;LZS;LZS;8010;\test.scf;write file
+169;15:50.128;0x0001;LZS;LZS;8006;;IEC program stopped
+170;15:50.232;0x1000;SERC;RTB;8042;Phase=0;SERCOS phase changed
+171;15:50.232;0x1000;MAX4;PacDriveM;8016;;system reset
 172;0;0x0001;MAX4;PacDriveM;8002;FW V00.22.03;PacController boot started
-173;244;0x0001;MAX4;PacDriveM;8051;;Max4/AX=8/RAM=32/NRAM=32/DiskS=16
-174;560;0x1000;SERC;RTB;8042;Phase=1;SERCOS phase changed
-175; 2.200;0x1000;SERC;RTB;8042;Phase=2/L=6%;SERCOS phase changed
-176; 2.248;0x0001;MAX4;PacDriveM;8003;V00.05.00 MAx4;PacController boot finished
-177; 5.808;0x1000;SERC;RTB;8042;Phase=3;SERCOS phase changed
-178; 6.028;0x1000;SERC;RTB;8042;Phase=4;SERCOS phase changed
-179;36.392;0x1000;LZS;LZS;8013;c0a86565;connect to TCP/IP server
-180;36.404;0x0001;LZS;LZS;8007;EPAS-4;login
-181;50.832;0x0001;LZS;LZS;8004;;IEC program started
-182; 4:30.852;0x0001;LZS;LZS;8009;;IEC program reset
-183; 5:30.376;0x0001;LZS;LZS;8004;;IEC program started
-184; 8:06.936;0x0001;LZS;LZS;8008;EPAS-4;logout
-185; 8:06.952;0x1000;LZS;LZS;8014;c0a86565;disconnect from TCP/IP server
-186;12:54.264;0x1000;LZS;LZS;8013;c0a86565;connect to TCP/IP server
-187;12:54.276;0x0001;LZS;LZS;8007;EPAS-4;login
-188;13:09.072;0x0002;IECPRG;SymVisrtualAct;6317;1/1;cycle time overrun
-189;13:09.096;0x1000;LZS;LZS;8057;;Online-Change
-190;13:09.540;0x1000;LZS;LZS;8010;\temp.prg;write file
-191;13:13.824;0x1000;LZS;LZS;8010;\source.pak;write file
-192;13:32.696;0x0001;LZS;LZS;8009;;IEC program reset
-193;13:42.356;0x0001;LZS;LZS;8004;;IEC program started
-194;15:36.832;0x0001;LZS;LZS;8008;EPAS-4;logout
-195;15:36.836;0x1000;LZS;LZS;8014;c0a86565;disconnect from TCP/IP server
-196;17:23.568;0x1000;LZS;LZS;8013;c0a86565;connect to TCP/IP server
-197;17:23.588;0x0001;LZS;LZS;8007;EPAS-4;login
-198;17:56.924;0x0001;LZS;LZS;8009;;IEC program reset
-199;17:59.556;0x0001;LZS;LZS;8004;;IEC program started
-200;22:14.632;0x0001;LZS;LZS;8008;EPAS-4;logout
-201;22:14.636;0x1000;LZS;LZS;8014;c0a86565;disconnect from TCP/IP server
-202;22:33.216;0x1000;LZS;LZS;8013;c0a86565;connect to TCP/IP server
-203;22:33.240;0x0001;LZS;LZS;8007;EPAS-4;login
-204;23:18.788;0x0001;LZS;LZS;8009;;IEC program reset
-205;23:27.520;0x0001;LZS;LZS;8004;;IEC program started
-206;24:51.468;0x0001;LZS;LZS;8008;EPAS-4;logout
-207;24:51.484;0x1000;LZS;LZS;8014;c0a86565;disconnect from TCP/IP server
-208;25:47.476;0x1000;LZS;LZS;8013;c0a86565;connect to TCP/IP server
-209;25:47.484;0x0001;LZS;LZS;8007;EPAS-4;login
-210;25:55.376;0x1000;LZS;LZS;8057;;Online-Change
-211;25:55.376;0x0002;IECPRG;SymVisrtualAct;6317;1/1;cycle time overrun
-212;25:56.748;0x1000;LZS;LZS;8010;\temp.prg;write file
-213;26:01.012;0x1000;LZS;LZS;8010;\source.pak;write file
-214;26:21.388;0x0001;LZS;LZS;8009;;IEC program reset
-215;26:26.680;0x0001;LZS;LZS;8004;;IEC program started
-216;29:58.564;0x0001;LZS;LZS;8008;EPAS-4;logout
-217;29:58.572;0x1000;LZS;LZS;8014;c0a86565;disconnect from TCP/IP server
-218;30:19.580;0x1000;LZS;LZS;8013;c0a86567;connect to TCP/IP server
-219;30:19.600;0x0001;LZS;LZS;8007;EPAS-4;login
-220;31:14.204;0x0002;IECPRG;SymVisrtualAct;6317;1/1;cycle time overrun
-221;31:14.204;0x1000;LZS;LZS;8010;\temp.prg;write file
-222;31:14.876;0x1000;LZS;LZS;8010;\testres.par;write file
-223;31:34.868;0x1000;LZS;LZS;8010;\source.pak;write file
-224;31:45.368;0x1000;LZS;LZS;8010;\canma.con;write file
-225;31:45.496;0x1000;LZS;LZS;8010;\cansl.con;write file
-226;31:45.628;0x1000;LZS;LZS;8010;\profima.con;write file
-227;31:45.728;0x1000;LZS;LZS;8010;\profisl.con;write file
-228;31:45.828;0x1000;LZS;LZS;8010;\test.scf;write file
-229;31:50.040;0x0001;LZS;LZS;8006;;IEC program stopped
-230;31:50.124;0x1000;SERC;RTB;8042;Phase=0;SERCOS phase changed
-231;31:50.124;0x1000;MAX4;PacDriveM;8016;;system reset
-232;0;0x0001;MAX4;PacDriveM;8002;FW V00.22.03;PacController boot started
-233;246;0x0001;MAX4;PacDriveM;8051;;Max4/AX=8/RAM=32/NRAM=32/DiskS=16
-234;666;0x1000;SERC;RTB;8042;Phase=1;SERCOS phase changed
-235; 2.246;0x0001;MAX4;PacDriveM;8003;V00.05.00 MAx4;PacController boot finished
-236; 2.306;0x1000;SERC;RTB;8042;Phase=2/L=22%;SERCOS phase changed
-237; 3.822;0x1000;SERC;RTB;8042;Phase=3;SERCOS phase changed
-238; 3.979;0x1000;SERC;RTB;8042;Phase=4;SERCOS phase changed
-239;32.092;0x1000;LZS;LZS;8013;c0a86567;connect to TCP/IP server
-240;32.112;0x0001;LZS;LZS;8007;EPAS-4;login
-241;52.219;0x0001;LZS;LZS;8004;;IEC program started
-242; 3:22.339;0x0001;LZS;LZS;8008;EPAS-4;logout
-243; 3:22.348;0x1000;LZS;LZS;8014;c0a86567;disconnect from TCP/IP server
-244; 4:18.588;0x1000;LZS;LZS;8013;c0a86567;connect to TCP/IP server
-245; 4:18.606;0x0001;LZS;LZS;8007;EPAS-4;login
-246; 4:53.396;0x0001;LZS;LZS;8008;EPAS-4;logout
-247; 4:53.400;0x1000;LZS;LZS;8014;c0a86567;disconnect from TCP/IP server
-248; 5:21.383;0x1000;LZS;LZS;8013;c0a86565;connect to TCP/IP server
-249; 5:21.410;0x0001;LZS;LZS;8007;EPAS-4;login
-250; 5:35.539;0x1000;LZS;LZS;8010;\temp.prg;write file
-251; 5:35.625;0x0002;IECPRG;Main;6317;2/1;cycle time overrun
-252; 5:36.400;0x1000;LZS;LZS;8010;\testres.par;write file
-253; 5:40.006;0x1000;LZS;LZS;8010;\source.pak;write file
-254; 5:50.677;0x1000;LZS;LZS;8010;\canma.con;write file
-255; 5:50.810;0x1000;LZS;LZS;8010;\cansl.con;write file
-256; 5:50.925;0x1000;LZS;LZS;8010;\profima.con;write file
-257; 5:51.013;0x1000;LZS;LZS;8010;\profisl.con;write file
-258; 5:51.192;0x1000;LZS;LZS;8010;\test.scf;write file
-259; 5:53.799;0x0001;LZS;LZS;8006;;IEC program stopped
-260; 5:53.840;0x1000;SERC;RTB;8042;Phase=0;SERCOS phase changed
-261; 5:53.840;0x1000;MAX4;PacDriveM;8016;;system reset
-262;0;0x0001;MAX4;PacDriveM;8002;FW V00.22.03;PacController boot started
-263;472;0x0001;MAX4;PacDriveM;8051;;Max4/AX=8/RAM=32/NRAM=32/DiskS=16
-264;568;0x1000;SERC;RTB;8042;Phase=1;SERCOS phase changed
-265; 2.208;0x1000;SERC;RTB;8042;Phase=2/L=6%;SERCOS phase changed
-266; 2.472;0x0001;MAX4;PacDriveM;8003;V00.05.00 MAx4;PacController boot finished
-267; 5.812;0x1000;SERC;RTB;8042;Phase=3;SERCOS phase changed
-268; 6.032;0x1000;SERC;RTB;8042;Phase=4;SERCOS phase changed
-269;10.668;0x1000;LZS;LZS;8013;c0a86565;connect to TCP/IP server
-270;10.680;0x0001;LZS;LZS;8007;EPAS-4;login
-271;19.708;0x0001;LZS;LZS;8004;;IEC program started
-272; 3:22.788;0x0001;LZS;LZS;8008;EPAS-4;logout
-273; 3:22.792;0x1000;LZS;LZS;8014;c0a86565;disconnect from TCP/IP server
-274; 4:23.768;0x1000;LZS;LZS;8013;c0a86565;connect to TCP/IP server
-275; 4:23.776;0x0001;LZS;LZS;8007;EPAS-4;login
-276; 4:31.040;0x0001;LZS;LZS;8009;;IEC program reset
-277; 4:38.596;0x0001;LZS;LZS;8004;;IEC program started
-278; 5:46.072;0x0001;LZS;LZS;8008;EPAS-4;logout
-279; 5:46.080;0x1000;LZS;LZS;8014;c0a86565;disconnect from TCP/IP server
-280; 6:06.408;0x1000;LZS;LZS;8013;c0a86565;connect to TCP/IP server
-281; 6:06.420;0x0001;LZS;LZS;8007;EPAS-4;login
-282; 6:12.260;0x0001;LZS;LZS;8009;;IEC program reset
-283; 6:18.108;0x0001;LZS;LZS;8004;;IEC program started
-284; 7:45.996;0x0001;LZS;LZS;8008;EPAS-4;logout
-285; 7:46.004;0x1000;LZS;LZS;8014;c0a86565;disconnect from TCP/IP server
-286;14:16.932;0x1000;LZS;LZS;8013;c0a86567;connect to TCP/IP server
-287;14:16.952;0x0001;LZS;LZS;8007;EPAS-4;login
-288;15:14.868;0x1000;LZS;LZS;8010;\temp.prg;write file
-289;15:14.912;0x0002;IECPRG;SymVisrtualAct;6317;1/1;cycle time overrun
-290;15:15.532;0x1000;LZS;LZS;8010;\testres.par;write file
-291;15:35.212;0x1000;LZS;LZS;8010;\source.pak;write file
-292;15:46.272;0x1000;LZS;LZS;8010;\canma.con;write file
-293;15:46.404;0x1000;LZS;LZS;8010;\cansl.con;write file
-294;15:46.528;0x1000;LZS;LZS;8010;\profima.con;write file
-295;15:46.628;0x1000;LZS;LZS;8010;\profisl.con;write file
-296;15:46.752;0x1000;LZS;LZS;8010;\test.scf;write file
-297;15:50.128;0x0001;LZS;LZS;8006;;IEC program stopped
-298;15:50.232;0x1000;SERC;RTB;8042;Phase=0;SERCOS phase changed
-299;15:50.232;0x1000;MAX4;PacDriveM;8016;;system reset
-300;0;0x0001;MAX4;PacDriveM;8002;FW V00.22.03;PacController boot started
-301;246;0x0001;MAX4;PacDriveM;8051;;Max4/AX=8/RAM=32/NRAM=32/DiskS=16
-302;554;0x1000;SERC;RTB;8042;Phase=1;SERCOS phase changed
-303; 2.194;0x1000;SERC;RTB;8042;Phase=2/L=22%;SERCOS phase changed
-304; 2.246;0x0001;MAX4;PacDriveM;8003;V00.05.00 MAx4;PacController boot finished
-305; 3.710;0x1000;SERC;RTB;8042;Phase=3;SERCOS phase changed
-306; 3.867;0x1000;SERC;RTB;8042;Phase=4;SERCOS phase changed
-307;33.083;0x1000;LZS;LZS;8013;c0a86567;connect to TCP/IP server
-308;33.101;0x0001;LZS;LZS;8007;EPAS-4;login
-309; 2:27.724;0x0001;LZS;LZS;8004;;IEC program started
-310; 3:46.689;0x0001;LZS;LZS;8008;EPAS-4;logout
-311; 3:46.696;0x1000;LZS;LZS;8014;c0a86567;disconnect from TCP/IP server
-312;10:41.609;0x1000;LZS;LZS;8013;c0a86567;connect to TCP/IP server
-313;10:41.626;0x0001;LZS;LZS;8007;EPAS-4;login
-314;11:36.664;0x0002;IECPRG;Main;6317;2/1;cycle time overrun
-315;11:36.706;0x1000;LZS;LZS;8057;;Online-Change
-316;11:37.357;0x1000;LZS;LZS;8010;\temp.prg;write file
-317;11:57.227;0x1000;LZS;LZS;8010;\source.pak;write file
-318;12:15.941;0x0001;LZS;LZS;8009;;IEC program reset
-319;12:22.150;0x0001;LZS;LZS;8004;;IEC program started
-320;13:56.470;0x0001;LZS;LZS;8008;EPAS-4;logout
-321;13:56.476;0x1000;LZS;LZS;8014;c0a86567;disconnect from TCP/IP server
-322;19:14.964;0x1000;LZS;LZS;8013;c0a86567;connect to TCP/IP server
-323;19:14.986;0x0001;LZS;LZS;8007;EPAS-4;login
-324;19:44.865;0x0002;IECPRG;Main;6317;1/1;cycle time overrun
-325;19:44.925;0x1000;LZS;LZS;8057;;Online-Change
+173;246;0x0001;MAX4;PacDriveM;8051;;Max4/AX=8/RAM=32/NRAM=32/DiskS=16
+174;554;0x1000;SERC;RTB;8042;Phase=1;SERCOS phase changed
+175; 2.194;0x1000;SERC;RTB;8042;Phase=2/L=22%;SERCOS phase changed
+176; 2.246;0x0001;MAX4;PacDriveM;8003;V00.05.00 MAx4;PacController boot finished
+177; 3.710;0x1000;SERC;RTB;8042;Phase=3;SERCOS phase changed
+178; 3.867;0x1000;SERC;RTB;8042;Phase=4;SERCOS phase changed
+179;33.083;0x1000;LZS;LZS;8013;c0a86567;connect to TCP/IP server
+180;33.101;0x0001;LZS;LZS;8007;EPAS-4;login
+181; 2:27.724;0x0001;LZS;LZS;8004;;IEC program started
+182; 3:46.689;0x0001;LZS;LZS;8008;EPAS-4;logout
+183; 3:46.696;0x1000;LZS;LZS;8014;c0a86567;disconnect from TCP/IP server
+184;10:41.609;0x1000;LZS;LZS;8013;c0a86567;connect to TCP/IP server
+185;10:41.626;0x0001;LZS;LZS;8007;EPAS-4;login
+186;11:36.664;0x0002;IECPRG;Main;6317;2/1;cycle time overrun
+187;11:36.706;0x1000;LZS;LZS;8057;;Online-Change
+188;11:37.357;0x1000;LZS;LZS;8010;\temp.prg;write file
+189;11:57.227;0x1000;LZS;LZS;8010;\source.pak;write file
+190;12:15.941;0x0001;LZS;LZS;8009;;IEC program reset
+191;12:22.150;0x0001;LZS;LZS;8004;;IEC program started
+192;13:56.470;0x0001;LZS;LZS;8008;EPAS-4;logout
+193;13:56.476;0x1000;LZS;LZS;8014;c0a86567;disconnect from TCP/IP server
+194;19:14.964;0x1000;LZS;LZS;8013;c0a86567;connect to TCP/IP server
+195;19:14.986;0x0001;LZS;LZS;8007;EPAS-4;login
+196;19:44.865;0x0002;IECPRG;Main;6317;1/1;cycle time overrun
+197;19:44.925;0x1000;LZS;LZS;8057;;Online-Change
+198;19:47.285;0x1000;LZS;LZS;8010;\temp.prg;write file
+199;20:08.209;0x1000;LZS;LZS;8010;\source.pak;write file
+200;29:10.912;0x0001;LZS;LZS;8008;EPAS-4;logout
+201;29:10.918;0x1000;LZS;LZS;8014;c0a86567;disconnect from TCP/IP server
+202; 1:01:16.061;0x1000;LZS;LZS;8013;c0a86567;connect to TCP/IP server
+203; 1:01:16.081;0x0001;LZS;LZS;8007;EPAS-4;login
+204; 1:01:50.504;0x1000;LZS;LZS;8057;;Online-Change
+205; 1:01:52.946;0x1000;LZS;LZS;8010;\temp.prg;write file
+206; 1:02:13.635;0x1000;LZS;LZS;8010;\source.pak;write file
+207; 1:02:33.287;0x0001;LZS;LZS;8009;;IEC program reset
+208; 1:02:35.285;0x0001;LZS;LZS;8004;;IEC program started
+209; 1:03:24.670;0x0001;LZS;LZS;8008;EPAS-4;logout
+210; 1:03:24.686;0x1000;LZS;LZS;8014;c0a86567;disconnect from TCP/IP server
+211; 1:03:37.880;0x1000;LZS;LZS;8013;c0a86567;connect to TCP/IP server
+212; 1:03:37.899;0x0001;LZS;LZS;8007;EPAS-4;login
+213; 1:04:11.110;0x0002;IECPRG;Main;6317;2/1;cycle time overrun
+214; 1:04:11.158;0x1000;LZS;LZS;8057;;Online-Change
+215; 1:04:13.777;0x1000;LZS;LZS;8010;\temp.prg;write file
+216; 1:04:34.274;0x1000;LZS;LZS;8010;\source.pak;write file
+217; 1:04:53.501;0x0001;LZS;LZS;8009;;IEC program reset
+218; 1:04:56.688;0x0001;LZS;LZS;8004;;IEC program started
+219; 1:07:30.659;0x0001;LZS;LZS;8008;EPAS-4;logout
+220; 1:07:30.664;0x1000;LZS;LZS;8014;c0a86567;disconnect from TCP/IP server
+221; 1:13:44.401;0x1000;LZS;LZS;8013;c0a86567;connect to TCP/IP server
+222; 1:13:44.422;0x0001;LZS;LZS;8007;EPAS-4;login
+223; 1:14:17.148;0x0002;IECPRG;Main;6317;2/1;cycle time overrun
+224; 1:14:17.191;0x1000;LZS;LZS;8057;;Online-Change
+225; 1:14:19.329;0x1000;LZS;LZS;8010;\temp.prg;write file
+226; 1:14:40.480;0x1000;LZS;LZS;8010;\source.pak;write file
+227; 1:15:12.408;0x0001;LZS;LZS;8009;;IEC program reset
+228; 1:15:14.596;0x0001;LZS;LZS;8004;;IEC program started
+229; 1:16:08.647;0x0001;LZS;LZS;8008;EPAS-4;logout
+230; 1:16:08.657;0x1000;LZS;LZS;8014;c0a86567;disconnect from TCP/IP server
+231; 1:40:55.207;0x1000;LZS;LZS;8013;c0a86567;connect to TCP/IP server
+232; 1:40:55.244;0x0001;LZS;LZS;8007;EPAS-4;login
+233; 1:41:33.021;0x0002;IECPRG;Main;6317;1/1;cycle time overrun
+234; 1:41:33.022;0x1000;LZS;LZS;8010;\temp.prg;write file
+235; 1:41:54.058;0x1000;LZS;LZS;8010;\source.pak;write file
+236; 1:42:05.379;0x0001;LZS;LZS;8009;;IEC program reset
+237; 1:42:14.723;0x0001;LZS;LZS;8004;;IEC program started
+238; 1:42:18.400;0x0002;MC_4;ax1;2123;;error inverter enable
+239; 1:42:59.846;0x0001;LZS;LZS;8006;;IEC program stopped
+240; 1:42:59.930;0x1000;SERC;RTB;8042;Phase=0;SERCOS phase changed
+241; 1:42:59.931;0x1000;MAX4;PacDriveM;8016;;system reset
+242;0;0x0001;MAX4;PacDriveM;8002;FW V00.22.03;PacController boot started
+243;246;0x0001;MAX4;PacDriveM;8051;;Max4/AX=8/RAM=32/NRAM=32/DiskS=16
+244;554;0x1000;SERC;RTB;8042;Phase=1;SERCOS phase changed
+245; 2.194;0x1000;SERC;RTB;8042;Phase=2/L=22%;SERCOS phase changed
+246; 2.246;0x0001;MAX4;PacDriveM;8003;V00.05.00 MAx4;PacController boot finished
+247; 3.714;0x1000;SERC;RTB;8042;Phase=3;SERCOS phase changed
+248; 3.869;0x1000;SERC;RTB;8042;Phase=4;SERCOS phase changed
+249; 3.887;0x0002;MC_4;ax1;2123;;error inverter enable
+250; 2:23.741;0x0002;MC_4;ax2;7134;;external 24V power supply too low
+251; 2:23.760;0x0002;MC_4;ax1;7134;;external 24V power supply too low
+252; 2:23.778;0x0002;SERC;RTB;1506;Rr;Fatal SERCOS error (MASTER)
+253;0;0x0001;MAX4;PacDriveM;8002;FW V00.22.03;PacController boot started
+254;415;0x0001;MAX4;PacDriveM;8051;;Max4/AX=8/RAM=32/NRAM=32/DiskS=16
+255;556;0x1000;SERC;RTB;8042;Phase=1;SERCOS phase changed
+256; 2.196;0x1000;SERC;RTB;8042;Phase=2/L=22%;SERCOS phase changed
+257; 2.416;0x0001;MAX4;PacDriveM;8003;V00.05.00 MAx4;PacController boot finished
+258; 3.720;0x1000;SERC;RTB;8042;Phase=3;SERCOS phase changed
+259; 3.879;0x1000;SERC;RTB;8042;Phase=4;SERCOS phase changed
+260;36.387;0x1000;LZS;LZS;8013;c0a86567;connect to TCP/IP server
+261;36.412;0x0001;LZS;LZS;8007;EPAS-4;login
+262; 1:36.778;0x1000;LZS;LZS;8057;;Online-Change
+263; 1:37.677;0x1000;LZS;LZS;8010;\temp.prg;write file
+264; 1:58.045;0x1000;LZS;LZS;8010;\source.pak;write file
+265; 2:12.963;0x0001;LZS;LZS;8004;;IEC program started
+266; 3:54.118;0x0001;LZS;LZS;8008;EPAS-4;logout
+267; 3:54.129;0x1000;LZS;LZS;8014;c0a86567;disconnect from TCP/IP server
+268; 5:33.487;0x1000;LZS;LZS;8013;c0a86567;connect to TCP/IP server
+269; 5:33.505;0x0001;LZS;LZS;8007;EPAS-4;login
+270; 5:47.548;0x0001;LZS;LZS;8008;EPAS-4;logout
+271; 5:47.554;0x1000;LZS;LZS;8014;c0a86567;disconnect from TCP/IP server
+272;15:56.820;0x1000;LZS;LZS;8013;c0a86567;connect to TCP/IP server
+273;15:56.842;0x0001;LZS;LZS;8007;EPAS-4;login
+274;16:30.550;0x0002;IECPRG;Main;6317;1/1;cycle time overrun
+275;16:30.647;0x1000;LZS;LZS;8057;;Online-Change
+276;16:31.522;0x1000;LZS;LZS;8010;\temp.prg;write file
+277;16:52.457;0x1000;LZS;LZS;8010;\source.pak;write file
+278;17:11.613;0x0001;LZS;LZS;8009;;IEC program reset
+279;17:14.095;0x0001;LZS;LZS;8004;;IEC program started
+280;17:38.254;0x0001;LZS;LZS;8008;EPAS-4;logout
+281;17:38.261;0x1000;LZS;LZS;8014;c0a86567;disconnect from TCP/IP server
+282;19:21.721;0x1000;LZS;LZS;8013;c0a86567;connect to TCP/IP server
+283;19:21.739;0x0001;LZS;LZS;8007;EPAS-4;login
+284;19:55.318;0x1000;LZS;LZS;8057;;Online-Change
+285;19:55.319;0x0002;IECPRG;Main;6317;2/1;cycle time overrun
+286;19:57.596;0x1000;LZS;LZS;8010;\temp.prg;write file
+287;20:19.059;0x1000;LZS;LZS;8010;\source.pak;write file
+288;20:36.907;0x0001;LZS;LZS;8009;;IEC program reset
+289;20:40.353;0x0001;LZS;LZS;8004;;IEC program started
+290;22:19.039;0x0001;LZS;LZS;8008;EPAS-4;logout
+291;22:19.047;0x1000;LZS;LZS;8014;c0a86567;disconnect from TCP/IP server
+292;29:54.510;0x1000;LZS;LZS;8013;c0a86567;connect to TCP/IP server
+293;29:54.529;0x0001;LZS;LZS;8007;EPAS-4;login
+294;30:28.859;0x0002;IECPRG;Main;6317;1/1;cycle time overrun
+295;30:28.859;0x1000;LZS;LZS;8057;;Online-Change
+296;30:31.372;0x1000;LZS;LZS;8010;\temp.prg;write file
+297;30:52.335;0x1000;LZS;LZS;8010;\source.pak;write file
+298;31:14.925;0x0001;LZS;LZS;8009;;IEC program reset
+299;31:19.045;0x0001;LZS;LZS;8004;;IEC program started
+300;32:33.345;0x0001;LZS;LZS;8008;EPAS-4;logout
+301;32:33.357;0x1000;LZS;LZS;8014;c0a86567;disconnect from TCP/IP server
+302;36:25.609;0x1000;LZS;LZS;8013;c0a86567;connect to TCP/IP server
+303;36:25.635;0x0001;LZS;LZS;8007;EPAS-4;login
+304;36:59.776;0x0002;IECPRG;Main;6317;1/1;cycle time overrun
+305;36:59.807;0x1000;LZS;LZS;8057;;Online-Change
+306;37:02.123;0x1000;LZS;LZS;8010;\temp.prg;write file
+307;37:23.781;0x1000;LZS;LZS;8010;\source.pak;write file
+308;37:42.426;0x0001;LZS;LZS;8009;;IEC program reset
+309;37:46.176;0x0001;LZS;LZS;8004;;IEC program started
+310;39:12.446;0x0001;LZS;LZS;8008;EPAS-4;logout
+311;39:12.460;0x1000;LZS;LZS;8014;c0a86567;disconnect from TCP/IP server
+312;51:30.579;0x1000;LZS;LZS;8013;c0a86567;connect to TCP/IP server
+313;51:30.597;0x0001;LZS;LZS;8007;EPAS-4;login
+314;52:05.546;0x0002;IECPRG;Main;6317;1/1;cycle time overrun
+315;52:05.579;0x1000;LZS;LZS;8057;;Online-Change
+316;52:08.206;0x1000;LZS;LZS;8010;\temp.prg;write file
+317;52:29.335;0x1000;LZS;LZS;8010;\source.pak;write file
+318;52:50.963;0x0001;LZS;LZS;8009;;IEC program reset
+319;52:54.817;0x0001;LZS;LZS;8004;;IEC program started
+320;54:04.499;0x0001;LZS;LZS;8008;EPAS-4;logout
+321;54:04.513;0x1000;LZS;LZS;8014;c0a86567;disconnect from TCP/IP server
+322;56:37.518;0x1000;LZS;LZS;8013;c0a86567;connect to TCP/IP server
+323;56:37.539;0x0001;LZS;LZS;8007;EPAS-4;login
+324;57:11.914;0x0002;IECPRG;Main;6317;1/1;cycle time overrun
+325;57:11.955;0x1000;LZS;LZS;8057;;Online-Change
